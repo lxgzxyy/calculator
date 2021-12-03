@@ -1,0 +1,53 @@
+table {
+  table-layout: fixed;
+  width: 200px;
+  height: 280px;
+  border: 3px solid DarkOliveGreen;
+  margin-top:200px;
+  margin-left:250px;
+}
+
+th{
+  border:0 solid grey;
+}
+
+td {
+ border:0 solid grey;
+}
+
+input.screen{
+	background: darkgrey;
+	border: 2;
+}
+
+input.operator{
+	font-size: 105%;
+	color: darkgreen;
+	width:40px; 
+	height:30px;
+	align-items: center;
+    justify-content: center;
+}
+
+input.number{
+	font-size: 105%;
+	color: darkorange;
+	width:40px; 
+	height:30px;
+	align-items: center;
+    justify-content: center;
+}
+
+button.operator{
+	font-size: 105%;
+	color: darkgreen;
+	width:40px; 
+	height:30px;
+}
+
+button.number{
+	font-size: 105%;
+	color: darkorange;
+	width:40px; 
+	height:30px;
+}
